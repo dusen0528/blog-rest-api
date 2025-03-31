@@ -1,0 +1,46 @@
+# 빌드 결과물
+target/
+build/
+out/
+*.class
+dist/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# 예외 처리
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# 로그 파일
+*.log
+logs/
+
+# IDE 관련 파일
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+.apt_generated
+.factorypath
+.nbproject/private/
+
+# 민감한 정보가 포함된 파일
+**/application-*.yml
+**/application-*.properties
+**/resources/secrets.yml
+**/resources/secrets.properties
+*.p12
+*.jks
+*.keystore
+
+# 운영체제 관련 파일
+.DS_Store
+Thumbs.db
